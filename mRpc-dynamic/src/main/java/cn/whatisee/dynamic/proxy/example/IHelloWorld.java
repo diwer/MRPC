@@ -5,4 +5,5 @@ package cn.whatisee.dynamic.proxy.example;
  */
 public interface IHelloWorld {
     void SayHello();
+    int returnNumber();
 }

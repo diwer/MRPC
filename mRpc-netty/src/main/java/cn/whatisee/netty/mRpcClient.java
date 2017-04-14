@@ -36,7 +36,7 @@ public class mRpcClient {
                 protected void initChannel(SocketChannel socketChannel) throws Exception {
                     socketChannel.pipeline().addLast(new mRpcMessageDecoder(1024 * 1024, 4, 4));
                     socketChannel.pipeline().addLast("MessageEncoder", new mRpcMessageEncoder());
-                    socketChannel.pipeline().addLast("readTimeoutHandler", new ReadTimeoutHandler(50));
+                    socketChannel.pipeline().addLast("readTimeoutHandler", new ReadTimeoutHandler(5000));
                     socketChannel.pipeline().addLast("LoginAuthHandler", new LoginAuthReqHandler());
                     socketChannel.pipeline().addLast("HeartBeatHandler", new HeartBeatReqHandler());
                 }
@@ -46,22 +46,23 @@ public class mRpcClient {
             future.channel().closeFuture().sync();
         } catch (InterruptedException e) {
             e.printStackTrace();
+            group.shutdownGracefully();
         } finally {
-//            executorService.execute(new Runnable() {
-//                @Override
-//                public void run() {
-//                    try {
-//                        TimeUnit.SECONDS.sleep(5);
-//                        try {
-//                            connect(mRpcConstant.PORT, mRpcConstant.LOCAL_IP);
-//                        } catch (Exception e) {
-//                            e.printStackTrace();
-//                        }
-//                    } catch (InterruptedException e) {
-//                        e.printStackTrace();
-//                    }
-//                }
-//            });
+            executorService.execute(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        TimeUnit.SECONDS.sleep(5);
+                        try {
+                            connect(mRpcConstant.PORT, mRpcConstant.LOCAL_IP);
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            });
         }
     }
 

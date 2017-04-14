@@ -26,6 +26,7 @@ public class mRpcMessageEncoder extends MessageToMessageEncoder<mRpcMessage> {
     protected void encode(ChannelHandlerContext channelHandlerContext, mRpcMessage mRpcMessage, List<Object> list) throws Exception {
         if (mRpcMessage == null || mRpcMessage.getHeader() == null)
             throw new Exception("this encode message is null");
+
         ByteBuf sendBuf = Unpooled.buffer();
         sendBuf.writeInt(mRpcMessage.getHeader().getCrcCode());
         sendBuf.writeInt(mRpcMessage.getHeader().getLength());
@@ -52,8 +53,8 @@ public class mRpcMessageEncoder extends MessageToMessageEncoder<mRpcMessage> {
             mRpcGeneralEncoder.encode(mRpcMessage.getBody(), sendBuf);
         } else {
             sendBuf.writeInt(0);
-            sendBuf.setInt(4, sendBuf.readableBytes());
         }
+        sendBuf.setInt(4, sendBuf.readableBytes());// 更新了包的长度字段
         list.add(sendBuf);
     }
 }

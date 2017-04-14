@@ -3,17 +3,23 @@ package cn.whatisee.dynamic.proxy.example;
 /**
  * Created by ming on 2016/12/19.
  */
-public class HelloWorldImpl implements  IHelloWorld{
+public class HelloWorldImpl implements IHelloWorld {
 
     public void SayHello() {
+
         System.out.println("Hello World");
     }
 
-    public  static  void main(String[]args) throws Throwable {
+    public int returnNumber() {
+        return 1;
+    }
 
-        IHelloWorld hello=new HelloWorldImpl();
+    public static void main(String[] args) throws Throwable {
+
+        IHelloWorld hello = new HelloWorldImpl();
         IHelloWorld foo = (IHelloWorld) HelloWorldProxy.newInstance(new HelloWorldImpl());
         foo.SayHello();
+        foo.returnNumber();
 
 
     }
