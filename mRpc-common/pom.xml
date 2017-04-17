@@ -9,6 +9,7 @@
 
     <artifactId>mRpc-common</artifactId>
     <packaging>jar</packaging>
+    <version>1.0.0-SNAPSHOT</version>
 
     <name>mRpc-common</name>
     <url>http://maven.apache.org</url>
@@ -16,7 +17,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    
     <dependencies>
         <dependency>
             <groupId>cn.whatisee</groupId>
