@@ -222,7 +222,6 @@ public class URL implements Serializable {
     public String getIp() {
         if (StringUtils.isEmpty(ip)) {
             ip = NetUtils.getIpByHost(host);
-
         }
         return ip;
     }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="MyApp" packages="">
+    <Properties>
+        <Property name="baseDir">logs</Property>
+    </Properties>
+    <ThresholdFilter level="debug"/>
+    <Appenders>
+        <!--<File name="MyFile" fileName="logs/app.log">-->
+            <!--<PatternLayout pattern="%d{{yyyy-MM-dd HH:mm:ss.SSS}} %T %highlight{%-5level} %l %L %M %msg %n%throwable"/>-->
+        <!--</File>-->
+        <!--<Async name="Async">-->
+            <!--<AppenderRef ref="MyFile"/>-->
+        <!--</Async>-->
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{{yyyy-MM-dd HH:mm:ss.sss}} %T %t  %highlight{%-5level} %l %L %M %msg %n%throwable"/>
+        </Console>
+        <!--<RollingFile name="RollingFile" fileName="${baseDir}/appr.log"-->
+                     <!--filePattern="${baseDir}/$${date:yyyy-MM}/app-%d{yyyy-MM-dd}.log.gz">-->
+            <!--<Policies>-->
+                <!--<TimeBasedTriggeringPolicy/>-->
+                <!--<SizeBasedTriggeringPolicy size="1 MB"/>-->
+            <!--</Policies>-->
+            <!--<PatternLayout pattern="%d{{yyyy-MM-dd HH:mm:ss.SSS}} %T %highlight{%-5level} %l %L %M %msg %n%throwable"/>-->
+            <!--<DefaultRolloverStrategy>-->
+                <!--<Delete basePath="${baseDir}" maxDepth="2">-->
+                    <!--<IfFileName glob="*/appr-*.log.gz"/>-->
+                    <!--<IfLastModified age="60d"/>-->
+                <!--</Delete>-->
+            <!--</DefaultRolloverStrategy>-->
+        <!--</RollingFile>-->
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <!--<AppenderRef ref="MyFile"/>-->
+            <AppenderRef ref="STDOUT"/>
+            <!--<AppenderRef ref="RollingFile"/>-->
+            <!--<AppenderRef ref="Async"/>-->
+        </Root>
+    </Loggers>
+</Configuration>

@@ -14,5 +14,8 @@
         <module>mRpc-common</module>
         <module>mRpc-maven</module>
         <module>mRpc-netty</module>
+        <module>simpleRpc</module>
+        <module>simpleRpc</module>
+        <module>simplerpcwithnetty</module>
     </modules>
 </project>

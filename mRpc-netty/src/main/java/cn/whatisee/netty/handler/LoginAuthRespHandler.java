@@ -15,7 +15,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class LoginAuthRespHandler extends ChannelInboundHandlerAdapter {
 
-    private Map<String, Boolean> nodeCheck = new ConcurrentHashMap<>();
+    private Map<String, Boolean> nodeCheck = new ConcurrentHashMap<String, Boolean>();
     private String[] whiteList = {"127.0.0.1"};
 
 

@@ -49,7 +49,6 @@ public class mRpcClient {
             group.shutdownGracefully();
         } finally {
             executorService.execute(new Runnable() {
-                @Override
                 public void run() {
                     try {
                         TimeUnit.SECONDS.sleep(5);
