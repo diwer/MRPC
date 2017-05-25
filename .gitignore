@@ -10,7 +10,7 @@ Thumbs.db
 
   
 # IntelliJ IDEA Files  
-  
+.idea/ 
 *.iml  
 *.ipr  
 *.iws  
