@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mRpc.iml" filepath="$PROJECT_DIR$/mRpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mRpc-common/mRpc-common.iml" filepath="$PROJECT_DIR$/mRpc-common/mRpc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mRpc-dynamic/mRpc-dynamic.iml" filepath="$PROJECT_DIR$/mRpc-dynamic/mRpc-dynamic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mRpc-maven/mRpc-maven.iml" filepath="$PROJECT_DIR$/mRpc-maven/mRpc-maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mRpc-netty/mRpc-netty.iml" filepath="$PROJECT_DIR$/mRpc-netty/mRpc-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleRpc/simpleRpc.iml" filepath="$PROJECT_DIR$/simpleRpc/simpleRpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplerpcwithnetty/simplerpcwithnetty.iml" filepath="$PROJECT_DIR$/simplerpcwithnetty/simplerpcwithnetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplerpcwithnetty2/simplerpcwithnetty2.iml" filepath="$PROJECT_DIR$/simplerpcwithnetty2/simplerpcwithnetty2.iml" />
+    </modules>
+  </component>
+</project>

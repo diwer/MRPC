@@ -56,7 +56,7 @@ public class RpcServer {
         bootstrap.bind("127.0.0.1", port).sync();
     }
 
-    protected class reciveRequestHandl extends ChannelInboundHandlerAdapter {
+    protected class  reciveRequestHandl extends ChannelInboundHandlerAdapter {
 
         public void channelRead(ChannelHandlerContext channelHandlerContext, Object o) throws Exception {
             RpcProtocol protocol = (RpcProtocol) o;

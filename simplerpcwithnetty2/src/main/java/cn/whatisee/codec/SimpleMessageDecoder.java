@@ -1,27 +1,26 @@
-package cn.whatisee.netty.codec;
+package cn.whatisee.codec;
 
-import cn.whatisee.netty.mRpcMessage;
-import cn.whatisee.netty.mRpcMessageHeader;
+import cn.whatisee.SimpleMessage;
+import cn.whatisee.SimpleMessageHeader;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 
 import java.io.IOException;
-import java.nio.ByteOrder;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * Created by ming on 2017/3/18.
  */
-public class mRpcMessageDecoder extends LengthFieldBasedFrameDecoder {
+public class SimpleMessageDecoder extends LengthFieldBasedFrameDecoder {
 
-    mRpcGeneralDecoder mRpcGeneralDecoder;
+    NettyCodecHander codecHander;
 
 
-    public mRpcMessageDecoder(int maxFrameLength, int lengthFieldOffset, int lengthFieldLength) throws IOException {
-        super(maxFrameLength, lengthFieldOffset, lengthFieldLength, -8, 0);
-        mRpcGeneralDecoder = new mRpcGeneralDecoder();
+    public SimpleMessageDecoder() throws IOException {
+        super(1024*1024*4, 4, 4, -8, 0);
+        codecHander = new NettyCodecAdapter();
     }
 
     @Override
@@ -30,8 +29,8 @@ public class mRpcMessageDecoder extends LengthFieldBasedFrameDecoder {
         if (frame == null)
             return null;
 
-        mRpcMessage message = new mRpcMessage();
-        mRpcMessageHeader header = new mRpcMessageHeader();
+        SimpleMessage message = new SimpleMessage();
+        SimpleMessageHeader header = new SimpleMessageHeader();
         header.setCrcCode(frame.readInt());
         header.setLength(frame.readInt());
         header.setSessionID(frame.readLong());
@@ -49,14 +48,14 @@ public class mRpcMessageDecoder extends LengthFieldBasedFrameDecoder {
                 keyArray = new byte[keySize];
                 frame.readBytes(keyArray);
                 key = new String(keyArray, "utf-8");
-                attch.put(key, mRpcGeneralDecoder.decode(in));
+                attch.put(key, codecHander.decode(in));
             }
             keyArray = null;
             key = null;
             header.setAttachment(attch);
         }
         if (frame.readableBytes() > 4) {
-            message.setBody(mRpcGeneralDecoder.decode(frame));
+            message.setBody(codecHander.decode(frame));
         }
         message.setHeader(header);
         return message;

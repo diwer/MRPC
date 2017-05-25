@@ -1,12 +1,12 @@
-package cn.whatisee.netty;
+package cn.whatisee;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by ming on 2017/3/18.
+ * Created by ming on 2017/5/2.
  */
-public class mRpcMessageHeader {
+public class SimpleMessageHeader {
     private int crcCode;    //校验字段
     private int length;     // 消息长度
     private long sessionID; //会话ID
@@ -14,8 +14,8 @@ public class mRpcMessageHeader {
     private byte priority;  // 优先级
     private Map<String, Object> attachment;  // 其他参数
 
-    public mRpcMessageHeader() {
-        attachment = new HashMap<String, Object>();
+    public SimpleMessageHeader() {
+        this.attachment = new HashMap<String, Object>();
     }
 
     public int getCrcCode() {

@@ -19,4 +19,5 @@ public class Constants {
     public static final String REMOVE_VALUE_PREFIX = "-";
     public static final String DEFAULT_KEY = "default";
 
+    public static Object PROXY_KEY;
 }

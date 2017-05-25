@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../dubbo/dubbo-remoting/dubbo-remoting-api/src/main/java/com/alibaba/dubbo/remoting/Transporter.java" description="public interface Transporter {&#10;" line="36" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54b4c05a-6056-46a4-8d0c-2d85ca8913a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/spi/Adaptive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/Message.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/SimpleMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/SimpleMessageHeader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/ChannelBufferByteInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/ChannelBufferByteOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/Codec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/MarshallingCodeCFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/NettyCodecAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/NettyCodecHander.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/SimpleCodec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/SimpleMessageDecoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/SimpleMessageEncoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/mRpcGeneralDecoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/mRpcGeneralEncoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netapi/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netty/NettyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netty/NettyServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Exporter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Invocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Invoker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Protocol.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/ProxyFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/RpcException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/SimpleInvocation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/util/NamedThreadFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/resources/META-INF/service/spi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplerpcwithnetty2/src/main/resources/META-INF/test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/Constants.java" afterPath="$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/codec/mRpcMessageDecoder.java" afterPath="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/codec/mRpcMessageDecoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/handler/HeartBeatReqHandler.java" afterPath="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/handler/HeartBeatReqHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/mRpcMessageHeader.java" afterPath="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/mRpcMessageHeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplerpcwithnetty/src/main/java/rpc/RpcServer.java" afterPath="$PROJECT_DIR$/simplerpcwithnetty/src/main/java/rpc/RpcServer.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/mRpc-common/target/" />
+    <ignored path="$PROJECT_DIR$/mRpc-dynamic/target/" />
+    <ignored path="$PROJECT_DIR$/mRpc-maven/target/" />
+    <ignored path="$PROJECT_DIR$/mRpc-netty/target/" />
+    <ignored path="$PROJECT_DIR$/simpleRpc/target/" />
+    <ignored path="$PROJECT_DIR$/simplerpcwithnetty/target/" />
+    <ignored path="$PROJECT_DIR$/simplerpcwithnetty2/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="mRpc" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Exporter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Exporter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/RpcException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Protocol.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Protocol.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProxyFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/ProxyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Invocation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Invocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleInvocation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/SimpleInvocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/URL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netty/NettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netapi/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jav</find>
+      <find>proxy</find>
+      <find>childHandler</find>
+      <find>var3</find>
+      <find>encode</find>
+      <find>I</find>
+      <find>SERVICES_DIRECTORY</find>
+      <find>sync</find>
+      <find>connect</find>
+      <find>connect(</find>
+      <find>bind</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/simpleRpc/src/main/java/RpcClient.java" />
+        <option value="$PROJECT_DIR$/simpleRpc/src/main/java/IHelloWorld.java" />
+        <option value="$PROJECT_DIR$/simpleRpc/src/main/java/HelloWorldImpl.java" />
+        <option value="$PROJECT_DIR$/simpleRpc/src/main/java/RpcServerTest.java" />
+        <option value="$PROJECT_DIR$/simpleRpc/src/main/java/rpc/RpcServer.java" />
+        <option value="$PROJECT_DIR$/simpleRpc/src/main/java/cn/whatisee/App.java" />
+        <option value="$PROJECT_DIR$/simpleRpc/pom.xml" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty/pom.xml" />
+        <option value="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/handler/LoginAuthRespHandler.java" />
+        <option value="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/mRpcClient.java" />
+        <option value="$PROJECT_DIR$/simpleRpc/src/main/java/RpcClientTest.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty/src/main/java/rpc/RpcProtocol.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty/src/main/java/RpcServerTest.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty/src/main/java/rpc/RpcClient.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/util/NamedThreadFactory.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/Codec.java" />
+        <option value="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/codec/mRpcMessageDecoder.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/mRpcMessageDecoder.java" />
+        <option value="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/mRpcMessageHeader.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/Message.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/SimpleMessage.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/MessageHeader.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/SimpleMessageHeader.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/NettyCodecHander.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/SimpleCdec.java" />
+        <option value="$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/handler/HeartBeatReqHandler.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/NettyHander.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/Codec.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/ChannelBufferByteOutput.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/mRpcGeneralDecoder.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/NettyCodecAdapter.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/SimpleCodec.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/resources/META-INF/service/spi" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/SimpleMessageEncoder.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/SimpleMessageDecoder.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netty/NettyHandler.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netty/NettyServer.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty/src/main/java/rpc/RpcServer.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Result.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Invoker.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/RpcException.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Invocation.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/pom.xml" />
+        <option value="$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/spi/Adaptive.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Protocol.java" />
+        <option value="$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/Constants.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Exporter.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/simpleInvocation.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netapi/Server.java" />
+        <option value="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/SimpleInvocation.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.3.9/libexec" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="simplerpcwithnetty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="simplerpcwithnetty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.netty:netty-all:4.1.6.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-all-4.1.6.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.netty:netty-all:4.1.6.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-all-4.1.6.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.netty:netty-all:4.1.6.Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty-all-4.1.6.Final.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="channel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplerpcwithnetty2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplerpcwithnetty2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplerpcwithnetty2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplerpcwithnetty2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whatisee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplerpcwithnetty2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="whatisee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mRpc-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30229884" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/simplerpcwithnetty2/src/main/resources" />
+      <recent name="$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec" />
+      <recent name="$PROJECT_DIR$/simplerpcwithnetty/src/main/java" />
+      <recent name="$PROJECT_DIR$/simpleRpc/src/main/java" />
+      <recent name="$PROJECT_DIR$/mRpc-common/src/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RpcClientTest (1)">
+    <configuration default="false" name="RpcServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RpcServerTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/simpleRpc/target" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simpleRpc" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RpcClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RpcClientTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simpleRpc" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.whatisee.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mRpc-common" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RpcServerTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RpcServerTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simplerpcwithnetty" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RpcClientTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RpcClientTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simplerpcwithnetty" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mRpc" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.RpcServerTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RpcClientTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.App (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RpcServerTest (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RpcClientTest (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.RpcClientTest (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RpcServerTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RpcServerTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RpcClientTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.App (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54b4c05a-6056-46a4-8d0c-2d85ca8913a5" name="Default" comment="" />
+      <created>1492171873955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1492171873955</updated>
+      <workItem from="1492171876802" duration="1712000" />
+      <workItem from="1492255695376" duration="311000" />
+      <workItem from="1492256027281" duration="2223000" />
+      <workItem from="1492413036127" duration="229000" />
+      <workItem from="1492430083483" duration="502000" />
+      <workItem from="1492514367903" duration="663000" />
+      <workItem from="1492664350645" duration="312000" />
+      <workItem from="1492936809700" duration="4377000" />
+      <workItem from="1493115948899" duration="8000" />
+      <workItem from="1493128688133" duration="16508000" />
+      <workItem from="1493718038083" duration="17722000" />
+      <workItem from="1493865129590" duration="12000" />
+      <workItem from="1494397078794" duration="1923000" />
+      <workItem from="1494467360743" duration="3000" />
+      <workItem from="1494555287411" duration="543000" />
+      <workItem from="1494571440130" duration="1003000" />
+      <workItem from="1494573715932" duration="874000" />
+      <workItem from="1494833461431" duration="129000" />
+      <workItem from="1494833610280" duration="110000" />
+      <workItem from="1494833743081" duration="109000" />
+      <workItem from="1494833870672" duration="55000" />
+      <workItem from="1494833992539" duration="3781000" />
+      <workItem from="1494903763704" duration="715000" />
+      <workItem from="1494923803718" duration="4980000" />
+      <workItem from="1494943569652" duration="5108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="63912000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31287128" sideWeight="0.49520767" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5106496" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55857295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.49041533" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26091588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24184988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.48935038" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.68477106" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/simplerpcwithnetty/src/main/java/rpc/RpcServer.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="serviceTargets" language="JAVA" />
+        <watch expression="targetService.getClass().getMethods()" language="JAVA" />
+        <watch expression="targetService.getClass().getMethods()" language="JAVA" />
+        <watch expression="targetService.getClass().getMethods()[0]" />
+        <watch expression="serviceTargets.entrySet().toArray()[0]" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/mRpcMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/codec/SimpleMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#1281#1297#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mRpc-netty/src/main/java/cn/whatisee/netty/mRpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="90" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netty/NettyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/util/concurrent/Future.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/util/concurrent/DefaultPromise.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="263" column="22" lean-forward="false" selection-start-line="263" selection-start-column="22" selection-end-line="263" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/util/concurrent/ProgressivePromise.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelProgressivePromise.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/util/concurrent/DefaultProgressivePromise.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/DefaultChannelProgressivePromise.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelPromise.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/CompleteChannelFuture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelFuture.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/SimpleMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/SimpleMessageHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty/src/main/java/rpc/RpcProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/spi/SPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelDuplexHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelOutboundInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelOutboundHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/net/AbstractPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="175" column="19" lean-forward="false" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/net/SocksSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/net/SocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="111" column="28" lean-forward="false" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="588" column="20" lean-forward="false" selection-start-line="588" selection-start-column="20" selection-end-line="588" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/socket/nio/NioSocketChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="271" column="42" lean-forward="false" selection-start-line="271" selection-start-column="42" selection-end-line="271" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/nio/AbstractNioChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="84" column="7" lean-forward="false" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/handler/codec/http2/AbstractHttp2StreamChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="418" column="25" lean-forward="false" selection-start-line="418" selection-start-column="25" selection-end-line="418" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/DefaultChannelPipeline.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="783" column="27" lean-forward="false" selection-start-line="783" selection-start-column="27" selection-end-line="783" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/AbstractChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="181" column="31" lean-forward="true" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/bootstrap/AbstractBootstrap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="256" column="30" lean-forward="false" selection-start-line="256" selection-start-column="30" selection-end-line="256" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty/src/main/java/rpc/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.6.Final/netty-all-4.1.6.Final.jar!/io/netty/channel/ChannelOutboundHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/spi/Adaptive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/spi/ExtensionLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="155" column="7" lean-forward="false" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Protocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/RpcException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Exporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/Invocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mRpc-common/src/main/java/cn/whatisee/common/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netty/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/netapi/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplerpcwithnetty2/src/main/java/cn/whatisee/rpc/SimpleInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30229884" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30229884" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30229884" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30229884" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>simpleRpc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30229884" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: io.netty:netty-all:4.1.6.Final</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30229884" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean" />
+    <option value="clear" />
+  </component>
+</project>

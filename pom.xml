@@ -17,5 +17,6 @@
         <module>simpleRpc</module>
         <module>simpleRpc</module>
         <module>simplerpcwithnetty</module>
+        <module>simplerpcwithnetty2</module>
     </modules>
 </project>

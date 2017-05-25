@@ -51,7 +51,7 @@ public class HeartBeatReqHandler extends ChannelInboundHandlerAdapter {
         }
 
 
-        @Override
+
         public void run() {
             mRpcMessage heatBeat = buildHeatBeat();
             System.out.println("Client send heart beat message to server :---->" + heatBeat);
