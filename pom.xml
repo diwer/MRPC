@@ -18,5 +18,6 @@
         <module>simpleRpc</module>
         <module>simplerpcwithnetty</module>
         <module>simplerpcwithnetty2</module>
+        <module>mRpc-test</module>
     </modules>
 </project>
