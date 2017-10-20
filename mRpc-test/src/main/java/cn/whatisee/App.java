@@ -7,32 +7,60 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
-import java.util.concurrent.ConcurrentHashMap;
+import java.sql.Time;
+import java.util.*;
+import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.locks.ReentrantLock;
+
+import static java.lang.Thread.sleep;
 
 /**
  * Hello world!
  */
 public class App {
 
-    public static void main(String[] args) throws InterruptedException {
-        // IHello hello = (IHello) beanFactory.getBean("hello");
-//        hello.sayHello();
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-        IPerson person1 = (IPerson) context.getBean(Person.class);
-        IPerson person2 = (IPerson) context.getBean(Person.class);
-        System.out.print(person1 == person2);
-        System.out.print(person1.equals(person2));
-        for (int i = 20; i > 0; i--) {
-            Thread t = new Thread(new job(context));
-            t.start();
+    static class RunnableTest implements Callable<Boolean> {
+        public RunnableTest(Test test) {
+            this.test = test;
         }
-        new job(context).run();
+
+        Test test;
+
+        public void run() {
+
+
+        }
+
+        public void printvalue() {
+            System.out.println(test.read());
+        }
+
+        public Boolean call() throws Exception {
+
+            synchronized (test) {
+                sleep(100);
+                System.out.println(test.synchronizedwriteandread());
+            }
+            return true;
+
+        }
+    }
+
+    ;
+
+    public static void main(String[] args) throws InterruptedException {
+        testSpring() ;
+    }
+
+    public static void testSpring() {
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
+        Person person1 = new Person();
+        //IPerson person2 = (IPerson) context.getBean(Person.class);
+
+        System.out.println(person1.getName());
     }
 
     static class job implements Runnable {
@@ -47,11 +75,10 @@ public class App {
             while (true) {
                 int i = new Random().nextInt(10000);
                 try {
-                    if(Thread.currentThread().getName()=="main"){
+                    if (Thread.currentThread().getName() == "main") {
                         Thread.sleep(i);
                         notifyAll();
-                    }
-                    else {
+                    } else {
                         if (i % 2 == 0) {
                             Thread.sleep(i);
                         } else {
@@ -78,7 +105,7 @@ public class App {
         int h = 31;
 
         if ((0 != h) && (k instanceof String)) {
-            return sun.misc.Hashing.stringHash32((String) k);
+//            return sun.misc.Hashing.stringHash32((String) k);
         }
         System.out.println(k.hashCode());
         h ^= k.hashCode();

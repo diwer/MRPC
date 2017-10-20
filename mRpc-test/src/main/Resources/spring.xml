@@ -2,9 +2,29 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
     <context:component-scan base-package="cn.whatisee"/>
     <context:annotation-config></context:annotation-config>
     <!--<bean id="hello" class="cn.whatisee.Hello" init-method="init"></bean>-->
+    <rabbit:connection-factory id="connectionFactory" host="192.168.211.231" port="5672" username="guest"
+                               password="guest"/>
 
+    <rabbit:template id="amqpTemplate" connection-factory="connectionFactory"  channel-transacted="true"/>
+
+    <rabbit:admin connection-factory="connectionFactory"/>
+
+    <rabbit:queue id="test" name="com.yougou.test" auto-declare="true"   />
+    <!--<rabbit:queue id="test2" name="com.yougou.test2" auto-declare="true"   />-->
+    <!--<rabbit:direct-exchange name="direct">-->
+        <!--<rabbit:bindings>-->
+            <!--<rabbit:binding queue="test"  key="com.yougou"></rabbit:binding>-->
+        <!--</rabbit:bindings>-->
+    <!--</rabbit:direct-exchange>-->
+
+    <!--<rabbit:listener-container connection-factory="connectionFactory">-->
+        <!--<rabbit:listener ref="foo" method="listen" queue-names="com.yougou.test"/>-->
+    <!--</rabbit:listener-container>-->
+
+    <bean id="foo" class="cn.whatisee.mq.Foo"/>
 </beans>

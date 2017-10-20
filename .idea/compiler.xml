@@ -17,13 +17,13 @@
         <module name="simplerpcwithnetty2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
+    <bytecodeTargetLevel target="1.7">
       <module name="mRpc" target="1.5" />
       <module name="mRpc-common" target="1.8" />
       <module name="mRpc-dynamic" target="1.5" />
       <module name="mRpc-maven" target="1.5" />
       <module name="mRpc-netty" target="1.5" />
-      <module name="mRpc-test" target="1.5" />
+      <module name="mRpc-test" target="1.8" />
       <module name="simpleRpc" target="1.5" />
       <module name="simplerpcwithnetty" target="1.5" />
       <module name="simplerpcwithnetty2" target="1.5" />

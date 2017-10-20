@@ -1,0 +1,4 @@
+@startuml
+bob->alli:hello
+alli->bob:year
+@enduml
